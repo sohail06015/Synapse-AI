@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Modern+Antiqua&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* Define primary color */
+:root {
+  --color-primary: #283389;
+}
+
+/* Default font for entire site */
+body {
+  font-family: "Outfit", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Logo font */
+.font-logo {
+  font-family: "Audiowide", sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.font-logo:hover {
+  color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+/* Bitcount font */
+.font-bitcount {
+  font-family: "Bitcount Grid Double", monospace;
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+.font-bitcount:hover {
+  color: var(--color-primary);
+  letter-spacing: 1px;
+}
+
+/* Antiqua font */
+.font-antiqua {
+  font-family: "Modern Antiqua", serif;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.font-antiqua:hover {
+  color: var(--color-primary);
+  transform: rotate(-1deg) scale(1.02);
+}
